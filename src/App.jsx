@@ -5,7 +5,7 @@ import Three from './component/three/Three.jsx'
 
 function App() {
   return (
-    <Canvas id="three-canvas-container">
+    <Canvas id="three-canvas-container" shadows>
       <Suspense fullback={null}>
         <Three />
       </Suspense>
